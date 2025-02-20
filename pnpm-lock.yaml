@@ -2131,6 +2131,7 @@ packages:
 
   lodash.get@4.4.2:
     resolution: {integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==}
+    deprecated: This package is deprecated. Use the optional chaining (?.) operator instead.
 
   lodash.isplainobject@4.0.6:
     resolution: {integrity: sha512-oSXzaWypCMHkPC3NvBEaPHf0KsA5mvPrOPgQWDsbg8n7orZ290M0BmC/jgRZ4vcJ6DTAhjrsSYgdsW/F+MFOBA==}
@@ -3008,8 +3009,8 @@ packages:
   undici-types@6.19.8:
     resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
 
-  undici@5.28.4:
-    resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
+  undici@5.28.5:
+    resolution: {integrity: sha512-zICwjrDrcrUE0pyyJc1I2QzBkLM8FINsgOrt6WjA+BgajVq9Nxu2PbFFXUrAggLfDXlZGZBVZYw7WNV5KiBiBA==}
     engines: {node: '>=14.0'}
 
   unist-util-is@6.0.0:
@@ -3144,8 +3145,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zod@3.22.1:
-    resolution: {integrity: sha512-+qUhAMl414+Elh+fRNtpU+byrwjDFOS1N7NioLY+tSlcADTx4TkCUua/hxJvxwDXcV4397/nZ420jy4n4+3WUg==}
+  zod@3.24.2:
+    resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -3168,11 +3169,11 @@ snapshots:
       listr2: 6.6.1
       lodash: 4.17.21
       mkdirp: 0.5.6
-      native-fetch: 4.0.2(undici@5.28.4)
+      native-fetch: 4.0.2(undici@5.28.5)
       prettier: 2.8.8
       qs: 6.13.1
       rimraf: 2.7.1
-      undici: 5.28.4
+      undici: 5.28.5
       yargs: 15.4.1
     transitivePeerDependencies:
       - enquirer
@@ -4235,7 +4236,7 @@ snapshots:
       shiki: 1.17.7
       sonner: 1.7.1(react-dom@19.0.0-rc-5c56b873-20241107(react@19.0.0-rc-5c56b873-20241107))(react@19.0.0-rc-5c56b873-20241107)
       typesense: 1.8.2(@babel/runtime@7.26.0)
-      zod: 3.22.1
+      zod: 3.24.2
     transitivePeerDependencies:
       - '@babel/runtime'
       - '@types/react'
@@ -5601,9 +5602,9 @@ snapshots:
 
   nanoid@3.3.8: {}
 
-  native-fetch@4.0.2(undici@5.28.4):
+  native-fetch@4.0.2(undici@5.28.5):
     dependencies:
-      undici: 5.28.4
+      undici: 5.28.5
 
   natural-compare@1.4.0: {}
 
@@ -6327,7 +6328,7 @@ snapshots:
 
   undici-types@6.19.8: {}
 
-  undici@5.28.4:
+  undici@5.28.5:
     dependencies:
       '@fastify/busboy': 2.1.1
 
@@ -6493,6 +6494,6 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod@3.22.1: {}
+  zod@3.24.2: {}
 
   zwitch@2.0.4: {}
